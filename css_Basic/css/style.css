@@ -1,0 +1,63 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(14, 61, 44);
+  /*
+  rgb
+  hex
+  hsl
+  by name of VS
+  */
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 10px 0px;
+}
+nav {
+  background-color: rgb(15, 119, 210);
+  height: 40px;
+}
+
+/* I target all m element inside may nav */
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+}
+
+img {
+  width: 200px;
+  border-radius: 20px;
+  margin: 30px;
+  border: 2px solid peachpuff;
+}
+section {
+  width: 200px;
+  border-radius: 12px;
+  border: 2px solid white;
+  box-shadow: 5px 3px black;
+  margin: 10px;
+}
+
+.section-blue {
+  background-color: rgb(184, 239, 220);
+  color: aliceblue;
+  width: 500px;
+  display: inline-block;
+}
+
+pink {
+  background-color: purple;
+}
+#section-red {
+  background-color: blueviolet;
+  color: brown;
+  width: 500px;
+  display: inline-block;
+}
