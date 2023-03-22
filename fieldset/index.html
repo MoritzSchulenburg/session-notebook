@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styyles.css">
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+    
+  </head>
+  <body>
+    <h1 id="title">Private Birthday Party Picker</h1>
+    <p id="description">Lets celebrate my birthday party in one Week.</p>
+    <form area-labelledby="title">
+      <fieldset>
+        <legend>Enter your information</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Your name"/>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="your E-mail"/>
+
+
+        <div>
+          <label for="select-guests">Who are you coming with:</label>
+          <select name="friend-to-join" id="select-guests">
+            <option value="alone">I am coming alone</option>
+            <option value="with someone">plus one</option>
+            <option value="not coming">I can't come</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <label for="drinks">Drinks</label>
+        <input type="radio" name="item" id="Drinks" value="drinks" checked></input>
+        <label for="Food">Food</label>
+        <input type="radio" name="item" id="Food" value="food">
+        <label for="sweets">Sweets</label>
+        <input type="radio" name="item" id="Sweets" value="sweets">
+
+        <div>
+            <label for="date">When are you coming</label>
+            <input type="date" name="date" id="date">
+        </div>
+        <div>
+            <label for="outfit">Select the color for your outfit:</label>
+            <input type="color" name="outfit" id="outfit">
+        </div>
+
+        <div>
+            <label for="pizza-choice">Choose your Pizza:</label>
+            <input list="pizzas" id="pizza-choice" name="pizza-choice">
+
+            <datalist id="pizzas">
+                <option value="Salami">
+                <option value="Magaritha">
+                <option value="Tonno">
+                <option value="prosciuto">
+            </datalist>
+
+        </div>
+
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
